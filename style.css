@@ -1,3 +1,6 @@
+/*  colors  */
+
+
 /*  copy this for every website */
 *{
     padding: 0;
@@ -5,15 +8,15 @@
     box-sizing: border-box;
 }
 
-/*  temporary stules for structural html */
-
-*{ 
-    padding: 0.5rem;
+/*  temporary styles for structural html */
+section{ 
     border: 1px solid rgb(221, 213, 213);
 }
 
-body { border: none;}
-html{ border: none;}
+body { 
+    font-family: 'lora', serif;
+    color: #192b37;
+}
 /*  finish - copy this for every website */
 
 
@@ -25,6 +28,7 @@ html{ border: none;}
 }
 
 
+
 /* Universal styles & utility classes */
 .padded   {padding: 5%;}
 .padded-sm {padding: 1rem;}
@@ -32,4 +36,33 @@ html{ border: none;}
 .bg-dark{ 
     background-color: #192b37;
     color: white;
+}
+
+.text-left      { text-align:left;}
+.text-center    { text-align: center;}
+.text-right     { text-align: right;}
+
+.featured-text      { color: #FFBE00;}
+
+.font-weight-light  {font-weight: 400;}
+.font-weight-normal {font-weight: 500;}
+.font-weight-bold   {font-weight: 600;}
+
+.tall-80        {min-height: 80vh}
+.tall-90        {min-height: 90vh}
+.tall-100       {min-height: 100vh}
+
+
+
+
+/* Header styles */
+header{
+    background-image: url('/images/the-moroccan-nomad4.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h3{
+    font-size: 5.5rem;
+    line-height: 1;
 }
